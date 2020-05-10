@@ -1,0 +1,159 @@
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    text-align: center;
+    padding-top: 15%;
+}
+
+nav {
+    padding-top: 15px;
+}
+
+nav a {
+    color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    padding: 8px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.nav-left {
+    float: left;
+    padding-left: 10px;
+}
+
+.nav-right {
+    float: right;
+    padding-right: 30px;
+}
+
+#sign-in {
+    background-color: #4387fd;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 8px 10px;
+    border-radius: 3px;
+}
+
+#sign-in:hover {
+    text-decoration: underline;
+}
+
+form {
+    padding-top: 20px;
+}
+
+#google-logo {
+    width: 275px;
+}
+
+input[type=text] {
+    width: 40%;
+    border-radius: 20px;
+    padding: 11px 19px;
+    border-color: lightgrey;
+    border-style: solid;
+    border-width: 1px;
+    box-sizing: border-box;
+    font-size: 20px;
+    background-image: url(https://img.icons8.com/ios/32/000000/search--v1.png);
+    background-position: 10px 14px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+
+input[type=button] {
+    color: grey;
+    font-size: 0.9em;
+    padding: 8px 16px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent;
+}
+
+#search-bar:hover {
+    box-shadow: 0px 0px 2px 1px lightgrey;
+}
+
+#search-button:hover {
+    color: black;
+    border-color: grey;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#search-button:active {
+    background-color: rgb(216, 216, 216);
+}
+
+#lucky-button:hover {
+    color: black;
+    border-color: grey;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#lucky-button:active {
+    background-color: rgb(216, 216, 216);
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+footer a {
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.footer-left {
+    float: left;
+    padding-left: 15px;
+}
+
+.footer-right {
+    float: right;
+    padding-right: 30px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
